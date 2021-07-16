@@ -1,0 +1,53 @@
+// the variables
+$fontSize: 1rem;
+// the main font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap");
+// Globle designs
+* {
+    &::selection {
+        background-color: #EEE;
+        color: #232322;
+    }
+  list-style: none;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+#app {
+  overflow-x: hidden;
+}
+// the main buttons
+.white {
+  border: 1px solid;
+  background: transparent;
+  min-width: 130px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: $fontSize + 0.1;
+}
+.black {
+  border: 1px solid;
+  background: transparent;
+  min-width: 130px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: $fontSize + 0.1;
+  background-color: #000;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  font-family: "Encode Sans SC", sans-serif;
+  letter-spacing: 1px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
